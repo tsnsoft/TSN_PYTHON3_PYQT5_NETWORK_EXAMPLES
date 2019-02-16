@@ -43,7 +43,7 @@ class Main(QDialog):
     def tab_item_one_click_event(self):
         row = self.tableWidget.currentItem().row()
         save[0]=str(row+1)
-        self.label.setText('Выбранная статья: '+ str(row+1))
+        self.label_selected.setText('Выбранная статья: '+ str(row+1))
 
 
 
